@@ -1,0 +1,128 @@
+body{
+    background-color: #1f364b;
+}
+
+
+.landing-page-container{
+    top: 50px;
+}
+
+
+.landing-page-text{
+    width: 82%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.landing-page-text h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.subscribe-now-text{
+    color: #fdc11f;
+    font-size: 3.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.landing-page-text p{
+    width: 93%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+.form-row{
+    width: 75%;
+}
+
+.landing-page-icons{
+    width: 60%;
+}
+
+
+.svg-image {
+    top: -40px;
+    left: 116px;
+    right: 25px;
+}
+
+
+.send-btn{
+    color: #20364b;
+    font-weight: bold;
+}
+
+
+/*------------------------ Media Query ------------------------ */
+
+@media screen and (992px < width < 1200px) {
+    .svg-image {
+        top: 40px;
+        left: 85px;
+        right: 25px;
+    }
+    .landing-page-icons {
+        width: 55%;
+    }
+}
+
+@media screen and ( 767px < width < 992.9px) {
+    .svg-image {
+        top: 324px;
+        left: -596px;
+        right: 10px;
+    }
+    .landing-page-icons {
+        width: 100%;
+    }
+}
+
+@media screen and ( 576px < width < 767px) {
+    .svg-image {
+        top: 466px;
+        left: -435px;
+        right: 13px;
+    }
+    .landing-page-icons {
+        width: 100%;
+    }
+}
+
+@media screen and ( width < 576.9px) {
+    .svg-image {
+        top: 480px;
+        left: -440px;
+        right: 13px;
+    }
+    .landing-page-icons {
+        width: 100%;
+    }
+}
+
+@media screen and ( width < 511px) {
+    .svg-image {
+        top: 502px;
+        left: -408px;
+        right: 13px;
+    }
+    .landing-page-icons {
+        width: 100%;
+    }
+}
+
+@media screen and ( width < 439px) {
+    .svg-image {
+        top: 545px;
+        left: -337px;
+        right: 13px;
+    }
+    .landing-page-icons {
+        width: 100%;
+    }
+}
+
