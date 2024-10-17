@@ -36,19 +36,17 @@ body{
     font-weight: normal;
 }
 
-.form-row{
-    width: 75%;
+.form-row form{
+    width: 82%;
+}
+
+.svg-image {
+    top: -88px;
+    width: 90%;
 }
 
 .landing-page-icons{
-    width: 60%;
-}
-
-
-.svg-image {
-    top: -40px;
-    left: 116px;
-    right: 25px;
+    width: 52%;
 }
 
 
@@ -60,69 +58,135 @@ body{
 
 /*------------------------ Media Query ------------------------ */
 
-@media screen and (992px < width < 1200px) {
+@media screen and ( width > 1400px) {
     .svg-image {
-        top: 40px;
-        left: 85px;
-        right: 25px;
+        top: -89px;
+        width: 90%;
+    }
+    .landing-page-icons {
+        width: 53%;
+    }
+}
+
+@media screen and ( 1200px < width < 1400px) {
+    .svg-image{
+        top: -50px;
+        width: 90%;
+    }
+    .landing-page-icons {
+        width: 53%;
+    }
+}
+
+@media screen and ( width < 1201px) {
+    .svg-image{
+        top: 45px;
+        width: 90%;
     }
     .landing-page-icons {
         width: 55%;
     }
 }
 
-@media screen and ( 767px < width < 992.9px) {
+@media screen and ( width < 992px) {
     .svg-image {
-        top: 324px;
-        left: -596px;
-        right: 10px;
+        top: 358px;
+        width: 181%;
+    }
+    .landing-page-icons {
+        width: 105%;
+    }
+}
+
+@media screen and ( width < 768px) {
+    .svg-image {
+        top: 500px;
+        width: 181%;
+    }
+    .landing-page-icons {
+        width: 105%;
+    }
+}
+
+@media screen and ( width < 576px) {
+    .svg-image {
+        top: 431px;
+        width: 181%;
     }
     .landing-page-icons {
         width: 100%;
     }
 }
 
-@media screen and ( 576px < width < 767px) {
+@media screen and ( width < 564px) {
     .svg-image {
-        top: 466px;
-        left: -435px;
-        right: 13px;
+        top: 500px;
+        width: 181%;
     }
     .landing-page-icons {
         width: 100%;
     }
 }
 
-@media screen and ( width < 576.9px) {
+@media screen and ( width < 509px) {
     .svg-image {
-        top: 480px;
-        left: -440px;
-        right: 13px;
+        top: 540px;
+        width: 181%;
     }
     .landing-page-icons {
         width: 100%;
     }
 }
 
-@media screen and ( width < 511px) {
+@media screen and ( width < 450px) {
     .svg-image {
-        top: 502px;
-        left: -408px;
-        right: 13px;
+        top: 540px;
+        width: 181%;
     }
     .landing-page-icons {
         width: 100%;
     }
 }
 
-@media screen and ( width < 439px) {
+
+@media screen and ( width < 430px) {
     .svg-image {
-        top: 545px;
-        left: -337px;
-        right: 13px;
+        top: 570px;
+        width: 181%;
     }
     .landing-page-icons {
         width: 100%;
     }
 }
 
+
+@media screen and ( width < 402px) {
+    .svg-image {
+        top: 600px;
+        width: 181%;
+    }
+    .landing-page-icons {
+        width: 100%;
+    }
+}
+
+@media screen and ( width < 367px) {
+    .svg-image {
+        top: 672px;
+        width: 176%;
+    }
+    .landing-page-icons {
+        width: 98%;
+    }
+}
+
+
+@media screen and ( width < 351px) {
+    .svg-image {
+        top: 707px;
+        width: 175%;
+    }
+    .landing-page-icons {
+        width: 98%;
+    }
+}
