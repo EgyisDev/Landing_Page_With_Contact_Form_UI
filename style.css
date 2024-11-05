@@ -41,12 +41,13 @@ body{
 }
 
 .svg-image {
-    top: -88px;
-    width: 90%;
+    top: 33px;
+    right: 104px;
+    width: 70%;
 }
 
 .landing-page-icons{
-    width: 52%;
+    width: 103%;
 }
 
 
@@ -60,38 +61,42 @@ body{
 
 @media screen and ( width > 1400px) {
     .svg-image {
-        top: -89px;
-        width: 90%;
+        top: 33px;
+        right: 104px;
+        width: 70%;
     }
     .landing-page-icons {
         width: 53%;
     }
 }
 
-@media screen and ( 1200px < width < 1400px) {
+@media screen and ( 1201px < width < 1400px) {
     .svg-image{
-        top: -50px;
-        width: 90%;
+        top: 33px;
+        right: 104px;
+        width: 70%;
     }
     .landing-page-icons {
-        width: 53%;
+        width: 103%;
     }
 }
 
 @media screen and ( width < 1201px) {
     .svg-image{
-        top: 45px;
-        width: 90%;
+        top: 128px;
+        right: 104px;
+        width: 67%;
     }
     .landing-page-icons {
-        width: 55%;
+        width: 104%;
     }
 }
 
 @media screen and ( width < 992px) {
-    .svg-image {
-        top: 358px;
-        width: 181%;
+    .svg-image{
+        top: 33px;
+        right: 142px;
+        width: 70%;
     }
     .landing-page-icons {
         width: 105%;
@@ -99,9 +104,10 @@ body{
 }
 
 @media screen and ( width < 768px) {
-    .svg-image {
-        top: 500px;
-        width: 181%;
+    .svg-image{
+        top: 33px;
+        right: 104px;
+        width: 70%;
     }
     .landing-page-icons {
         width: 105%;
@@ -109,9 +115,10 @@ body{
 }
 
 @media screen and ( width < 576px) {
-    .svg-image {
-        top: 431px;
-        width: 181%;
+    .svg-image{
+        top: 33px;
+        right: 104px;
+        width: 70%;
     }
     .landing-page-icons {
         width: 100%;
@@ -119,9 +126,10 @@ body{
 }
 
 @media screen and ( width < 564px) {
-    .svg-image {
-        top: 500px;
-        width: 181%;
+    .svg-image{
+        top: 33px;
+        right: 104px;
+        width: 70%;
     }
     .landing-page-icons {
         width: 100%;
@@ -129,9 +137,10 @@ body{
 }
 
 @media screen and ( width < 509px) {
-    .svg-image {
-        top: 540px;
-        width: 181%;
+    .svg-image{
+        top: 29px;
+        right: 94px;
+        width: 66%;
     }
     .landing-page-icons {
         width: 100%;
@@ -139,9 +148,10 @@ body{
 }
 
 @media screen and ( width < 450px) {
-    .svg-image {
-        top: 540px;
-        width: 181%;
+    .svg-image{
+        top: 29px;
+        right: 94px;
+        width: 66%;
     }
     .landing-page-icons {
         width: 100%;
@@ -150,9 +160,10 @@ body{
 
 
 @media screen and ( width < 430px) {
-    .svg-image {
-        top: 570px;
-        width: 181%;
+    .svg-image{
+        top: 29px;
+        right: 92px;
+        width: 66%;
     }
     .landing-page-icons {
         width: 100%;
@@ -161,9 +172,10 @@ body{
 
 
 @media screen and ( width < 402px) {
-    .svg-image {
-        top: 600px;
-        width: 181%;
+    .svg-image{
+        top: 25px;
+        right: 80px;
+        width: 66%;
     }
     .landing-page-icons {
         width: 100%;
@@ -171,9 +183,10 @@ body{
 }
 
 @media screen and ( width < 367px) {
-    .svg-image {
-        top: 672px;
-        width: 176%;
+    .svg-image{
+        top: 25px;
+        right: 80px;
+        width: 66%;
     }
     .landing-page-icons {
         width: 98%;
@@ -183,8 +196,9 @@ body{
 
 @media screen and ( width < 351px) {
     .svg-image {
-        top: 707px;
-        width: 175%;
+        top: 38px;
+        right: 75px;
+        width: 60%;
     }
     .landing-page-icons {
         width: 98%;
